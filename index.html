@@ -186,7 +186,7 @@
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown -->
+  <!-- More Works Dropdown (commented out)
   <div class="more-works-container">
     <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
       <i class="fas fa-flask"></i>
@@ -201,19 +201,14 @@
         </button>
       </div>
       <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
         <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
           <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
             <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
             <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
             <span class="work-venue">Conference/Journal 2024</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <!-- TODO: Add more related works or remove extra items -->
         <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
           <div class="work-info">
             <h5>Paper Title 2</h5>
@@ -233,6 +228,7 @@
       </div>
     </div>
   </div>
+  -->
 
   <main id="main-content">
   <section class="hero">
@@ -241,52 +237,62 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Optimizing LLM Inference: Fluid-Guided Online Scheduling with Memory Constraints</h1>
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+                <a href="https://www.mit.edu/~aorc/" target="_blank">Ruicheng Ao</a>,</span>
+              <span class="author-block">
+                <a href="https://luoxiaogan.github.io/GanLuo.github.io/" target="_blank">Gan Luo</a>,</span>
+              <span class="author-block">
+                <a href="https://dsl.mit.edu" target="_blank">David Simchi-Levi</a>,</span>
+              <span class="author-block">
+                <a href="https://www.columbia.edu/~xw2230/" target="_blank">Xinshang Wang</a>
+              </span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Finalist in INFORMS Applied Probability Society Best Student Paper Prize, 2025</span>
+              <!-- <span class="eql-cntrb"><small><br><sup>*αβ</sup>Indicates Equal Contribution</small></span> -->
+            </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                      <!-- <span class="link-block">
+                        <a href="https://arxiv.org/abs/2504.11320" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
-                        <span>Paper</span>
+                        <span>Arxiv</span>
                       </a>
-                    </span>
+                    </span> -->
+
+                    <!-- TODO: Update with your arXiv paper ID -->
+                    <span class="link-block">
+                      <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>arXiv</span>
+                    </a>
+                  </span>
 
                     <!-- TODO: Add your supplementary material PDF or remove this section -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5195463" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
-                      <span>Supplementary</span>
+                      <span>SSRN</span>
                     </a>
                   </span>
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/Luoxiaogan/vidur_or" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -295,16 +301,8 @@
                   </a>
                 </span>
 
-                <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+
+              
             </div>
           </div>
         </div>
@@ -314,23 +312,20 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- Teaser video (commented out)
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
       <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
         <source src="static/videos/banner_video.mp4" type="video/mp4">
       </video>
-      <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.
       </h2>
     </div>
   </div>
 </section>
-<!-- End teaser video -->
+End teaser video -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -339,9 +334,8 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Large Language Models (LLMs) are indispensable in today's applications, but their inference procedure -- generating responses by processing text in segments and using a memory-heavy Key-Value (KV) cache -- demands significant computational resources, particularly under memory constraints. This paper formulates LLM inference optimization as a multi-stage online scheduling problem where sequential prompt arrivals and KV cache growth render conventional scheduling ineffective. We develop a fluid dynamics approximation to provide a tractable benchmark that guides algorithm design. Building on this, we propose the Waiting for Accumulated Inference Threshold (WAIT) algorithm, which uses multiple thresholds to schedule incoming prompts optimally when output lengths are known, and extend it to Nested WAIT for cases with unknown output lengths. Theoretical analysis shows that both algorithms achieve near-optimal performance against the fluid benchmark in heavy traffic conditions, balancing throughput, latency, and Time to First Token (TTFT). Experiments with the Llama-7B model on an A100 GPU using both synthetic and real-world datasets demonstrate improved throughput and reduced latency relative to established baselines like vLLM and Sarathi. This work bridges operations research and machine learning, offering a rigorous framework for the efficient deployment of LLMs under memory constraints.
           </p>
         </div>
       </div>
@@ -350,36 +344,65 @@
 </section>
 <!-- End paper abstract -->
 
+<!-- Teaser GIF 1 -->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <img src="gif_source/image19.gif" alt="Teaser Animation" style="max-width: 100%; height: auto;">
+      <h2 class="subtitle has-text-centered">
+        Eviction occurs only when memory exceeds 32GB limit. Evicted requests return to queue and must restart. KV cache is wasted with each eviction.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser GIF 1 -->
 
-<!-- Image carousel -->
+<hr class="section-divider" style="margin: 0; border: none; border-top: 1px solid #e2e8f0;">
+
+<!-- PDF as Image -->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <img src="PDF_alg/fig1_wait.pdf" alt="WAIT Algorithm Figure" style="max-width: 100%; height: auto;">
+      <h2 class="subtitle has-text-centered">
+        WAIT Algorithm: threshold based control
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End PDF as Image -->
+
+<hr class="section-divider" style="margin: 0; border: none; border-top: 1px solid #e2e8f0;">
+
+<!--
+=== COMMENTED OUT SECTIONS START ===
+Image carousel, Youtube video, Video carousel, Paper poster
+-->
+
+<!--
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
-        <!-- TODO: Replace with your research result images -->
         <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
         <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
         <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
        </h2>
      </div>
      <div class="item">
-      <!-- Your image here -->
       <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
@@ -389,22 +412,14 @@
 </div>
 </div>
 </section>
-<!-- End image carousel -->
 
-
-
-
-<!-- Youtube video -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
       <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
           <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
             <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
@@ -412,33 +427,24 @@
     </div>
   </div>
 </section>
-<!-- End youtube video -->
 
-
-<!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Another Carousel</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
           <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
             <source src="static/videos/carousel1.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
           <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
             <source src="static/videos/carousel2.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
           <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
             <source src="static/videos/carousel3.mp4" type="video/mp4">
           </video>
         </div>
@@ -446,31 +452,49 @@
     </div>
   </div>
 </section>
-<!-- End video carousel -->
 
-
-
-
-
-
-<!-- Paper poster -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
       <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
           </iframe>
-        
       </div>
     </div>
   </section>
-<!--End paper poster -->
+-->
 
+<!-- === COMMENTED OUT SECTIONS END === -->
 
+<!-- GIF Block 2 -->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <img src="gif_source/image23.gif" alt="Animation 23" style="max-width: 100%; height: auto;">
+      <h2 class="subtitle has-text-centered">
+        Here's WAIT running on a 4-stage pipeline. Initially, we accumulate requests. At time 20, we hit our threshold of 8 requests. From then on, the system maintains exactly 8 requests per stage in steady state. Notice the perfect synchronization - no memory spikes, no evictions, just smooth, efficient processing.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End GIF Block 2 -->
 
-<!--BibTex citation -->
+<hr class="section-divider" style="margin: 0; border: none; border-top: 1px solid #e2e8f0;">
+
+<!-- GIF Block 3 -->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <img src="gif_source/image24.gif" alt="Animation 24" style="max-width: 100%; height: auto;">
+      <h2 class="subtitle has-text-centered">
+        Here's Nested WAIT handling two request types. Blue requests need 4 stages, orange needs 8. So the second segment will until the first segment is ready. And this guarantees no eviction and stable performance after a warm-up time.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End GIF Block 3 -->
+
+<!--BibTex citation (commented out)
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <div class="bibtex-header">
@@ -489,7 +513,7 @@
 }</code></pre>
     </div>
 </section>
-<!--End BibTex citation -->
+End BibTex citation -->
 
 
   <footer class="footer">
